@@ -26,7 +26,6 @@ contract AVS {
 
     // Validate mint action
     function verifyMint(bytes32 txHash, address user, uint256 amount) external returns (bool) {
-        // Simulated validation (replace with Imua AVS integration)
         bool validated = true; // Assume valid for demo
         validations[txHash].push(ActionData("mint", user, address(0), amount, 0, 0, bytes32(0), validated));
         emit MintValidated(txHash, user, amount, validated);
