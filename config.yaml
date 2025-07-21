@@ -1,0 +1,48 @@
+chain:
+  id: imuachainlocalnet_232-1
+  rpc: http://localhost:26657
+  keyring-backend: test
+  keyring-dir: ~/.tmp-imuad
+operator:
+  address: im1u44sp8dmf3zdrdrecx9y8fhmlwp66xj8sq9myy
+  private-key: 25DCBD031766FED8157490A1536F14E41F460718B1CF5901929D62D77ED83041
+avs:
+  contract-address: 0x0CdcC9ECCe380c8f43E9aB72059F7e13567dC420
+  alchemy-api-key: SwgAcAixlPC6h-rP9MmLnvtNT0eZOn5w
+production: false
+avs_owner_address: 0xe56b009dbb4c44d1b479c18a43a6fbfb83ad1a47
+operator_address: 0xe56b009dbb4c44d1b479c18a43a6fbfb83ad1a47
+avs_address: 0x0CdcC9ECCe380c8f43E9aB72059F7e13567dC420
+eth_rpc_url: http://127.0.0.1:8545
+eth_ws_url: ws://127.0.0.1:8546
+avs_ecdsa_private_key_store_path: tests/keys/avs.ecdsa.key.json
+bls_private_key_store_path: tests/keys/test.bls.key.json
+node_api_ip_port_address: 0.0.0.0:9010
+enable_node_api: false
+register_operator_on_startup: false
+avs_name: "hello-avs"
+min_stake_amount: 1
+avs_owner_addresses:
+  - "0xe56b009dbb4c44d1b479c18a43a6fbfb83ad1a47"
+whitelist_addresses:
+  - "0xe56b009dbb4c44d1b479c18a43a6fbfb83ad1a47"
+asset_ids:
+  - "0xdac17f958d2ee523a2206206994597c13d831ec7_0x65"
+epoch_identifier: minute
+avs_unbonding_period: 7
+min_self_delegation: 0
+avs_reward_address: 0x0CdcC9ECCe380c8f43E9aB72059F7e13567dC420
+avs_slash_address: 0x0CdcC9ECCe380c8f43E9aB72059F7e13567dC420
+task_address: 0x0CdcC9ECCe380c8f43E9aB72059F7e13567dC420
+mini_opt_in_operators: 1
+min_total_stake_amount: 3
+avs_reward_proportion: 3
+avs_slash_proportion: 3
+create_task_interval: 100
+task_response_period: 3
+task_challenge_period: 3
+threshold_percentage: 100
+task_statistical_period: 3
+deposit_amount: 100
+delegate_amount: 100
+staker: 0xa53f68563D22EB0dAFAA871b6C08a6852f91d627
